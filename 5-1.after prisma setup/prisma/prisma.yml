@@ -1,0 +1,7 @@
+# add your database endpoint here:
+endpoint:
+datamodel: datamodel.prisma
+
+generate:
+  - generator: javascript-client
+    output: ./generated/prisma-client/
